@@ -1,12 +1,14 @@
-BUILD 		:= xcodebuild
+BUILD 		:= xctool
+
+TEST		:= test
 
 RM		:= rm -rf
 
 PROJNAMEFLAGS 	+= -project DailyNews.xcodeproj
 
-TARGETFLAGS	+= -target DailyNewsTests
+TARGETFLAGS	+= -target DailyNews
 
-SCHEMFLAGS	+= -scheme DailyNewsTests
+SCHEMEFLAGS	+= -scheme DailyNews
 
 CONFIGFLAGS	+= -configuration Debug
 
@@ -14,28 +16,21 @@ ARCHFLAGS	+= -arch "armv7s"
 
 SDKFLAGS	+= -sdk iphonesimulator
 
-OPTIONSFLAGS	+= clean build 
+OPTIONSFLAGS	+= "TEST_AFTER_BUILD=YES ONLY_ACTIVE_ARCH=NO"
 
-all	 :
-		$(RM) build/ test-reports/
-		$(BUILD) $(PROJNAMEFLAGS) $(SCHEMEFLAGS) $(SDKFLAGS) $(CONFIGFLAGS) $(ARCHFLAGS) clean build 2>&1 | /usr/local/bin/ocunit2junit
+CLEANFLAGS	+= clean 
 
-cleanf	:
+BUILDFLAGS	+= build 
+
+clean	:
 		$(RM) build/ test-reports/ *~ '#*#'
 
-build	: 	
-		xcodebuild -project DailyNews.xcodeproj -target "DailyNewsTests" -configuration Release clean  build
-	##xcodebuild -target "DailyNews" -configuration Release
-	BUILD_DIR="build" BUILD_STYLE="Release"
+all	 :	clean
+		$(RM) build test-reports
+		$(BUILD) $(PROJNAMEFLAGS) $(SCHEMEFLAGS) $(SDKFLAGS) $(CONFIGFLAGS) $(OPTIONSFLAGS) $(CLEANFLAGS) $(BUILDFLAGS)
+
+test	:	clean
+		$(RM) build test-reports
+		$(BUILD) $(TEST) $(PROJNAMEFLAGS) $(SCHEMEFLAGS) $(SDKFLAGS) $(CONFIGFLAGS) $(OPTIONSFLAGS) $(CLEANFLAGS) $(BUILDFLAGS)
 
 re 	: 	all
-
-old_all	:
-	make clean
-	xcodebuild -project DubizzleHorizontal.xcodeproj -target "DubizzleHorizontal" -configuration Release clean  build
-	##xcodebuild -target "DubizzleHorizontal" -configuration Release
-	BUILD_DIR="build" BUILD_STYLE="Release"
-
-old_test	:
-	#GHUNIT_CLI=1 
-	xcodebuild -project DubizzleHorizontal.xcodeproj -target DubizzleHorizontalTests -configuration debug clean -arch "armv7s" -sdk iphonesimulator build
