@@ -6,11 +6,13 @@ TEST		:= test
 
 RM		:= rm -rf
 
-PROJNAMEFLAGS 	+= -project DailyNews.xcodeproj
+PROJECTNAME	:= DailyNews
 
-TARGETFLAGS	+= -target DailyNews
+PROJNAMEFLAGS 	+= -project $(PROJECTNAME).xcodeproj
 
-SCHEMEFLAGS	+= -scheme DailyNews
+TARGETFLAGS	+= -target $(PROJECTNAME)
+
+SCHEMEFLAGS	+= -scheme $(PROJECTNAME)
 
 CONFIGFLAGS	+= -configuration Debug
 
