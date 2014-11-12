@@ -26,15 +26,19 @@ CLEANFLAGS	+= clean
 
 BUILDFLAGS	+= build 
 
-clean	:
+clean		:
 		$(RM) build/ test-reports/ *~ '#*#'
 
-all	 :	clean
+all	 	: clean
 		$(RM) build test-reports
 		$(BUILDXCODE) $(PROJNAMEFLAGS) $(SCHEMEFLAGS) $(SDKFLAGS) $(CONFIGFLAGS) $(OPTIONSFLAGS) $(CLEANFLAGS) $(BUILDFLAGS)
 
-test	:	clean
+testxctool	: clean
 		$(RM) build test-reports
 		$(BUILDXCTOOL) $(TEST) $(PROJNAMEFLAGS) $(SCHEMEFLAGS) $(SDKFLAGS) $(CONFIGFLAGS) $(OPTIONSFLAGS) $(CLEANFLAGS) $(BUILDFLAGS)
+
+testxcode	: clean
+		$(RM) build test-reports
+		$(BUILDXCODE) $(TEST) $(PROJNAMEFLAGS) $(SCHEMEFLAGS) $(SDKFLAGS) $(CONFIGFLAGS) $(OPTIONSFLAGS) $(CLEANFLAGS) $(BUILDFLAGS)
 
 re 	: 	all
