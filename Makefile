@@ -8,7 +8,7 @@ TARGETFLAGS	+= -target DailyNewsTests
 
 SCHEMFLAGS	+= -scheme DailyNewsTests
 
-CONFIGFLAGS	+= -configuration debug
+CONFIGFLAGS	+= -configuration Debug
 
 ARCHFLAGS	+= -arch "armv7s"
 

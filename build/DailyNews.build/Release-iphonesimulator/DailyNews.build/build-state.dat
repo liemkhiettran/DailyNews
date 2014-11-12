@@ -1,111 +1,0 @@
-TDailyNews
-v6
-r1
-cCheck dependencies
-cCopyStringsFile /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/en.lproj/InfoPlist.strings DailyNews/en.lproj/InfoPlist.strings
-cCompileStoryboard /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Base.lproj/Main.storyboard
-cCompileAssetCatalog /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Images.xcassets
-cProcessInfoPlistFile /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Info.plist /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist
-cTouch /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Base.lproj/Main.storyboard
-c000000005460DACC000000000000071D
-t1415633612
-s1821
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist
-c000000005460DACC00000000000004C4
-t1415633612
-s1220
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Images.xcassets
-c000000005460DACC0000000000000088
-t1415633612
-s136
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/en.lproj/InfoPlist.strings
-c000000005460DACC000000000000002D
-t1415633612
-s45
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_dependencies.txt
-t1415782013
-s356
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_generated_info.plist
-t1415782013
-s525
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app
-t1415782013
-s272
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Base.lproj/Main.storyboardc
-t1415782013
-s170
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Info.plist
-t1415782013
-s1014
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/PkgInfo
-t1415782013
-s8
-
-N/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/en.lproj/InfoPlist.strings
-t1415782012
-s42
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies965a9bfc5513ba41^fab99dfc5513ba41^-444"warning: no rule to process file '/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DNAppDelegate.m' of type sourcecode.c.objc for architecture armv7swarning: no rule to process file '/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DNViewController.m' of type sourcecode.c.objc for architecture armv7swarning: no rule to process file '/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/main.m' of type sourcecode.c.objc for architecture armv7s3(21%IDEActivityLogMessage2@149"Warning: no rule to process file '/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DNAppDelegate.m' of type sourcecode.c.objc for architecture armv7s-437474812#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@152"Warning: no rule to process file '/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DNViewController.m' of type sourcecode.c.objc for architecture armv7s-437474812#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@140"Warning: no rule to process file '/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/main.m' of type sourcecode.c.objc for architecture armv7s-437474812#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"40669CDB-CF68-432D-BAB5-1327792719EC-
-
-CCompileAssetCatalog /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Images.xcassets
-s437474812.618006
-e437474813.688676
-r1
-xCompileAssetCatalog
-x/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app
-x/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Images.xcassets
-o2014-11-12 12:46:53.590 IBCocoaTouchImageCatalogTool[995:303] CFPreferences: user home directory at file:///Users/liemkhiet/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-o/* com.apple.actool.compilation-results */
-o/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/LaunchImage-700-568h@2x.png
-o/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Assets.car
-o/Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CompileAssetCatalog build/Release-iphonesimulator/DailyNews.app DailyNews/Images.xcassets89"CompileAssetCatalog build/Release-iphonesimulator/DailyNews.app DailyNews/Images.xcassets19599efc5513ba41^2f4eb0fd5513ba41^-610"2014-11-12 12:46:53.590 IBCocoaTouchImageCatalogTool[995:303] CFPreferences: user home directory at file:///Users/liemkhiet/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/LaunchImage-700-568h@2x.png/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Assets.car/Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@72"file:///Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Images.xcassets/0000000000000000^1131"CompileAssetCatalog build/Release-iphonesimulator/DailyNews.app DailyNews/Images.xcassets    cd /Users/liemkhiet/Desktop/dev/DailyNews    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Images.xcassets36"F52733D0-944E-4AAA-B54A-0B73DDFFCA2C-
-b6BF5A391-CED3-48A2-90DE-CC0BF9D10A43
-
-CCompileStoryboard /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Base.lproj/Main.storyboard
-s437474812.617178
-e437474813.829113
-r1
-xCompileStoryboard
-x/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Base.lproj/Main.storyboard
-o2014-11-12 12:46:53.751 Interface Builder Cocoa Touch Tool[994:303] CFPreferences: user home directory at file:///Users/liemkhiet/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard DailyNews/Base.lproj/Main.storyboard54"CompileStoryboard DailyNews/Base.lproj/Main.storyboardf7399efc5513ba41^8941d4fd5513ba41^-232"2014-11-12 12:46:53.751 Interface Builder Cocoa Touch Tool[994:303] CFPreferences: user home directory at file:///Users/liemkhiet/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@82"file:///Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Base.lproj/Main.storyboard0000000000000000^853"CompileStoryboard DailyNews/Base.lproj/Main.storyboard    cd /Users/liemkhiet/Desktop/dev/DailyNews    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Base.lproj/Main.storyboardc /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/Base.lproj/Main.storyboard36"AFFA4FC9-5973-4716-9251-58E35268027D-
-b6BF5A391-CED3-48A2-90DE-CC0BF9D10A43
-
-CCopyStringsFile /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/en.lproj/InfoPlist.strings DailyNews/en.lproj/InfoPlist.strings
-s437474812.616886
-e437474812.619620
-r1
-xCopyStringsFile
-x/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/en.lproj/InfoPlist.strings
-xDailyNews/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy DailyNews/en.lproj/InfoPlist.strings123"CopyStringsFile build/Release-iphonesimulator/DailyNews.app/en.lproj/InfoPlist.strings DailyNews/en.lproj/InfoPlist.strings86219efc5513ba41^01bf9efc5513ba41^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/en.lproj/InfoPlist.strings0000000000000000^602"CopyStringsFile build/Release-iphonesimulator/DailyNews.app/en.lproj/InfoPlist.strings DailyNews/en.lproj/InfoPlist.strings    cd /Users/liemkhiet/Desktop/dev/DailyNews    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/en.lproj -- DailyNews/en.lproj/InfoPlist.strings36"ECC78EF5-8964-414A-976B-C4199D38D11E-
-b6BF5A391-CED3-48A2-90DE-CC0BF9D10A43
-
-CProcessInfoPlistFile /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Info.plist /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist
-s437474813.829934
-e437474813.831506
-r1
-xProcessInfoPlistFile
-x/Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Info.plist
-x/Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Process /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist106"ProcessInfoPlistFile build/Release-iphonesimulator/DailyNews.app/Info.plist DailyNews/DailyNews-Info.plista488d4fd5513ba41^2bded4fd5513ba41^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist0000000000000000^882"ProcessInfoPlistFile build/Release-iphonesimulator/DailyNews.app/Info.plist DailyNews/DailyNews-Info.plist    cd /Users/liemkhiet/Desktop/dev/DailyNews    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/liemkhiet/Desktop/dev/DailyNews/DailyNews/DailyNews-Info.plist -genpkginfo /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/liemkhiet/Desktop/dev/DailyNews/build/DailyNews.build/Release-iphonesimulator/DailyNews.build/assetcatalog_generated_info.plist -o /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app/Info.plist36"866BF15D-46FA-4C89-A490-202BFE10D957-
-b6BF5A391-CED3-48A2-90DE-CC0BF9D10A43
-
-CTouch /Users/liemkhiet/Desktop/dev/DailyNews/build/Release-iphonesimulator/DailyNews.app
-r0
-
